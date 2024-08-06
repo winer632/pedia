@@ -1,14 +1,13 @@
 {
-  "version": 2,
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "http://14.103.16.238/api/v1/:path*"
+      "source": "/api/v1/:path*",
+      "destination": "https://10.112.61.123/api/v1/:path*"
     }
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/v1/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
@@ -18,4 +17,3 @@
     }
   ]
 }
-
