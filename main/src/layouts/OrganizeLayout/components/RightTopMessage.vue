@@ -1,0 +1,18 @@
+<template>
+  <router-link to="/" class="layout-top-message">
+    <icon-svg type="message" :style="{ fontSize: '16px' }"></icon-svg>
+    <el-badge class="layout-top-message-badge" :value="message" type="danger" />
+  </router-link>
+</template>
+<script lang="ts" setup>
+import { computed, onMounted } from 'vue';
+import { useStore } from 'vuex';
+import { StateType as UserStateType } from '@/store/user';
+import IconSvg from '@/components/IconSvg';
+
+const store = useStore<{ user: UserStateType }>();
+
+const message = computed<number>(() => store.state.user.message);
+
+onMounted(() => { });
+</script>

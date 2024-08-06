@@ -1,0 +1,15 @@
+export default {
+  'page.user.login.form-item-username': 'Username',
+  'page.user.login.form-item-username.required': 'Please enter your username',
+  'page.user.login.form-item-password': 'Password',
+  'page.user.login.form-item-password.required': 'Please enter your password',
+  'page.user.login.form-item-password.min': 'Password must be at least 6 characters',
+  'page.user.login.form.title': 'SensePedia Login',
+  'page.user.login.form.btn-submit': 'Log In',
+  'page.user.login.form.btn-jump': 'Don’t have an account? Sign up now!',
+  'page.user.login.form.login-error': 'Incorrect username or password!',
+  'page.user.login.form.login-success': 'Login successful!',
+  'page.user.login.rememberMe': 'Remember Me',
+  'page.user.login.form.forget': 'Forgot Password?',
+  'page.user.login.form.forget-success': 'Please contact the administrator to modify the password',
+};

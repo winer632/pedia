@@ -1,0 +1,23 @@
+:root {
+  // 网页背景色
+  --qkl-bg-color: #ffffff;
+  // 网页字体色
+  --qkl-color: rgba(0, 0, 0, 0.85);
+  // 主窗口背景色
+  --qkl-main-bg-color: #ececee;
+
+  // 菜单
+  --qkl-menu-collapsed-width: 3.375rem;
+  --qkl-menu-bg-color: rgba(255, 255, 255, 0.65);
+  --qkl-submenu-bg-color: rgba(255, 255, 255, 0.65);
+  --qkl-menu-color: #4e5969;
+  --qkl-menu-higlight-bg-color: none;
+  --qkl-menu-highlight-color: #141ceb;
+
+  // 头部高度
+  --qkl-header-height: 3rem;
+  // 左边宽度
+  --qkl-left-side-bar-width: 12.5rem;
+  // 头部Tab导航高度
+  --qkl-header-tab-nav-height: 0;
+}

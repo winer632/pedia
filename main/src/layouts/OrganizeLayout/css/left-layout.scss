@@ -1,0 +1,13 @@
+@import './mixins.scss';
+
+#layout-right {
+  #layout-main {
+    .layout-menu {
+      @include layout-left-menu;
+    }
+  }
+  #layout-right-main {
+    display: flex;
+    flex-flow: row;
+  }
+}

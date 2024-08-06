@@ -1,0 +1,40 @@
+:root {
+  --left-layout-width: 19.125rem;
+  --right-layout-width: 1.25rem;
+
+  --layout-top-right: 1rem;
+  --right-main-width: 57.375rem;
+
+  --left-layout-scroll: clamp(10rem, 80vh, 100vh);
+  --right-main-scroll: clamp(10rem, 70vh, 100vh);
+  --right-main-preview-scroll: clamp(10rem, calc(100vh - 6rem), 100vh);
+
+  --el-popper-width: 20vw;
+
+  --theme-color-huge: #141ceb;
+  --theme-color-medium: #7075f5;
+  --theme-color-percentage: rgba(#141ceb, 0.1);
+  --theme-color-blur: #e5e6eb;
+  --theme-color-hover: #40a9ff;
+  --theme-color-font: #4e5969;
+  --theme-color-text: #1d2129;
+  --theme-color-detail: #4e5969;
+  --theme-color-power: #c9cdd4;
+  --theme-color-error: #f53f3f;
+  --theme-color-ff7d00: #ff7d00;
+  --theme-color-f7ba1e: #f7ba1e;
+  --theme-color-00b42a: #00b42a;
+  --theme-color-wait: #141ceb;
+  --theme-color-nodata: #86909C;
+  --theme-bg-color: #f7f8fa;
+  --theme-bg-colorFFF7E8: #fff7e8;
+  --theme-bg-colorFFECE8: #ffece8;
+  --theme-bg-colorHover: #e8ffea;
+  --theme-bg-colorSpan: #f2f3f5;
+  --theme-bg-colorChunk: #e5e6eb;
+  --theme-bg-colorTag: rgba(20, 28, 236, 0.4);
+  --theme-bg-colorQA: rgba(20, 236, 28, 0.4);
+  --theme-bg-noEnable: rgba(78, 89, 105, 0.1);
+  --theme-bg-enableHive: rgba(20, 28, 236, 0.15);
+  --theme-bg-wait: rgba(20, 28, 236, 0.1);
+}

@@ -1,0 +1,95 @@
+@import './element-variables.scss';
+@import './variables.scss';
+@import './mixin.scss';
+
+#nprogress .bar {
+  background: var(--el-color-primary) !important;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+a {
+  color: var(--theme-color-huge);
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+a:active {
+  color: var(--theme-color-huge);
+}
+a:hover {
+  color: var(--theme-color-huge);
+}
+
+.border-solid-transparent {
+  border: solid 0.0625rem transparent;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.padding-t10 {
+  padding-top: 0.625rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.open {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fade-in-top 0.5s forwards;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  &-close {
+    background-color: var(--theme-color-hover);
+    z-index: 100;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  video {
+    background: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes fade-in-top {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

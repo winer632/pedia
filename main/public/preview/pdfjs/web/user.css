@@ -1,0 +1,41 @@
+.verticalToolbarSeparator {
+  display: none;
+}
+
+#toolbarViewer {
+  background-color: #fff;
+}
+
+#viewerContainer {
+  margin-top: 1px;
+  display: block;
+  height: auto;
+  background-color: #fff;
+}
+
+#editorModeSeparator {
+  display: none;
+}
+
+#print {
+  display: none;
+}
+
+#download {
+  display: block !important;
+}
+
+#openFile {
+  display: none;
+}
+
+#secondaryToolbarToggle {
+  display: none;
+}
+
+#toolbarViewerMiddle {
+}
+
+#editorModeButtons {
+  display: none;
+}

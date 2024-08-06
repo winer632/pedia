@@ -1,0 +1,36 @@
+export default {
+  'page.organizes.rag.topNav': 'Rag列表',
+  'page.organizes.rag.add': ' 新建',
+  'page.organizes.rag.del': '刪除',
+
+  'page.organizes.rag.th-s-role-id': '角色ID',
+  'page.organizes.rag.th-s-role-name': '角色名',
+  'page.organizes.rag.th-s-role-key': '權限字符',
+  'page.organizes.rag.th-s-role-state': '角色狀態',
+  'page.organizes.rag.th-s-role-createTime': '創建時間',
+  'page.organizes.rag.th-s-operate': '操作',
+  'page.organizes.rag.th-s-role-name-holder': '請輸入名稱',
+  'page.organizes.rag.th-s-role-key-holder': '請輸入權限',
+  'page.organizes.rag.reset': '重置',
+  'page.organizes.rag.search': '查詢',
+
+  'page.organizes.rag.tb-role-id': '角色ID',
+  'page.organizes.rag.tb-role-name': '角色',
+  'page.organizes.rag.tb-role-key': '權限字符',
+  'page.organizes.rag.tb-role-state': '角色狀態',
+  'page.organizes.rag.tb-role-createTime': '創建時間',
+  'page.organizes.rag.tb-operate': '操作',
+  'page.organizes.rag.edit': '編輯',
+  'page.organizes.rag.delete': '刪除',
+
+  'page.organizes.rag.dialog-title': '角色新增',
+  'page.organizes.rag.dialog-label-id': '基本信息',
+  'page.organizes.rag.dialog-role-name': '角色名',
+  'page.organizes.rag.dialog-role-key': '權限字符',
+  'page.organizes.rag.dialog-role-state': '角色狀態',
+  'page.organizes.rag.cancel': '取消',
+  'page.organizes.rag.submit': '確認',
+  'page.organizes.rag.dialog-placeholder-prefix': '請輸入{holder}',
+
+  'page.organizes.role.deleteBatchHint': '確認要刪除嗎?',
+}

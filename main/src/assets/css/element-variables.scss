@@ -1,0 +1,78 @@
+/* 只需要重写你需要的即可 */
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #141ceb,
+    ),
+  )
+);
+
+// 导入所有样式:
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+
+.el-menu {
+  .el-menu-item {
+    .icon {
+      margin-right: 0.3125rem;
+    }
+  }
+}
+
+.el-radio-group {
+  padding-top: 0.625rem;
+}
+.el-radio__input.is-checked + .el-radio__label {
+  color: var(--theme-color-huge) !important;
+}
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: var(--theme-color-huge) !important;
+  background: var(--theme-color-huge) !important;
+}
+.el-popper {
+  max-width: var(--el-popper-width);
+}
+.el-popper.el-popover {
+  max-width: 60%;
+}
+.el-transfer {
+  --el-transfer-panel-width: 400px;
+}
+
+/* 重置 Drawer */
+.el-drawer {
+  .el-drawer__header {
+    padding: 0.9375rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 0.0625rem solid #f0f0f0;
+    span,
+    button {
+      outline: none;
+    }
+  }
+}
+
+/* 重置 card */
+.cus-card {
+  .el-card {
+    border: 0;
+  }
+}
+
+/*自定义 table 样式*/
+.custom-table {
+  .el-table__header {
+    background-color: #f5f7fa !important;
+  }
+  .custom-td-header-one,
+  .el-table__body tr:hover .custom-td-header-one {
+    color: #303133;
+    font-weight: bold;
+    background-color: #f5f7fa !important;
+  }
+}
+.custom-table-header {
+  color: #303133;
+  th {
+    background-color: #f5f7fa !important;
+  }
+}

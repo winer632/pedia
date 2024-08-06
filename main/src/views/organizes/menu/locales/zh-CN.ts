@@ -1,0 +1,38 @@
+export default {
+  'page.organizes.menu.topNav': '菜单列表',
+  'page.organizes.menu.add': '新建',
+  'page.organizes.menu.del': '删除',
+
+  'page.organizes.menu.th-s-menu-id': '菜单ID',
+  'page.organizes.menu.th-s-menu-name': '菜单名',
+  'page.organizes.menu.th-s-menu-key': '菜单字符',
+  'page.organizes.menu.th-s-menu-state': '状态',
+  'page.organizes.menu.th-s-menu-createTime': '创建时间',
+  'page.organizes.menu.th-s-operate': '操作',
+  'page.organizes.menu.th-s-menu-name-holder': '请输入菜单名',
+  'page.organizes.menu.th-s-menu-key-holder': '请输入菜单字符',
+  'page.organizes.menu.reset': '重置',
+  'page.organizes.menu.search': '查询',
+
+  'page.organizes.menu.tb-menu-id': '菜单ID',
+  'page.organizes.menu.tb-menu-name': '菜单名',
+  'page.organizes.menu.tb-menu-key': '菜单字符',
+  'page.organizes.menu.tb-menu-state': '状态',
+  'page.organizes.menu.tb-menu-createTime': '创建时间',
+  'page.organizes.menu.tb-operate': '操作',
+  'page.organizes.menu.edit': '编辑',
+  'page.organizes.menu.delete': '删除',
+
+  'page.organizes.menu.dialog-title': '菜单新增',
+  'page.organizes.menu.dialog-update-title': '菜单修改',
+  'page.organizes.menu.dialog-label-id': '基本信息',
+  'page.organizes.menu.dialog-menu-name': '菜单名',
+  'page.organizes.menu.dialog-menu-key': '菜单字符',
+  'page.organizes.menu.dialog-menu-state': '状态',
+  'page.organizes.menu.dialog-menu-remark': '备注',
+  'page.organizes.menu.cancel': '取消',
+  'page.organizes.menu.submit': '确认',
+  'page.organizes.menu.dialog-placeholder-prefix': '请输入{holder}',
+
+  'page.organizes.menu.deleteBatchHint': '确认要删除吗?',
+}

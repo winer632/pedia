@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .main .left-chat .qa-main::v-deep(.el-scrollbar__wrap) {
+    height: var(--left-layout-scroll);
+  }
+  .main .main-chat-content .main-chat-message::v-deep(.el-scrollbar__wrap) {
+    height: var(--right-main-scroll);
+  }
+  .main .main-chat-preview .preview {
+    height: var(--right-main-preview-scroll);
+    ::v-deep(section) {
+    }
+  }
+  .main-chat-nodata {
+    height: var(--right-main-scroll);
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  html {
+    font-size: 62.5%;
+  }
+  .main .left-chat .qa-main::v-deep(.el-scrollbar__wrap) {
+    height: var(--left-layout-scroll);
+  }
+  .main .main-chat-content .main-chat-message::v-deep(.el-scrollbar__wrap) {
+    height: var(--right-main-scroll);
+  }
+  .main .main-chat-preview .preview {
+    height: var(--right-main-preview-scroll);
+    ::v-deep(section) {
+    }
+  }
+  .main-chat-nodata {
+    height: var(--right-main-scroll);
+  }
+}
+@media (min-width: 1280px) and (max-width: 1441px) {
+  html {
+    font-size: 100%;
+  }
+  .main .left-chat .qa-main::v-deep(.el-scrollbar__wrap) {
+    height: var(--left-layout-scroll);
+  }
+  .main .main-chat-content .main-chat-message::v-deep(.el-scrollbar__wrap) {
+    height: var(--right-main-scroll);
+  }
+  .main .main-chat-preview .preview {
+    height: var(--right-main-preview-scroll);
+    ::v-deep(section) {
+    }
+  }
+  .main-chat-nodata {
+    height: var(--right-main-scroll);
+  }
+}
+@media (min-width: 1441px) and (max-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+  #layout-right {
+    .main-chat-nodata {
+      height: var(--right-main-scroll);
+    }
+    .main-chat-message {
+      height: var(--right-main-scroll);
+    }
+  }
+  .main .left-chat .qa-main::v-deep(.el-scrollbar__wrap) {
+    height: var(--left-layout-scroll);
+  }
+  .main .main-chat-content .main-chat-message::v-deep(.el-scrollbar__wrap) {
+    height: var(--right-main-scroll);
+  }
+  .main .main-chat-preview .preview {
+    height: var(--right-main-preview-scroll);
+    ::v-deep(section) {
+    }
+  }
+  .main-chat-nodata {
+    height: var(--right-main-scroll);
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+  .main .left-chat .qa-main::v-deep(.el-scrollbar__wrap) {
+    height: var(--left-layout-scroll);
+  }
+  .main .main-chat-content .main-chat-message::v-deep(.el-scrollbar__wrap) {
+    height: var(--right-main-scroll);
+  }
+  .main .main-chat-preview .preview {
+    height: var(--right-main-preview-scroll);
+    ::v-deep(section) {
+    }
+  }
+  .main-chat-nodata {
+    height: var(--right-main-scroll);
+  }
+}

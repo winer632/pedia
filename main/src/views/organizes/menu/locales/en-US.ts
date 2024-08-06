@@ -1,0 +1,38 @@
+export default {
+  'page.organizes.menu.topNav': 'Menu List',
+  'page.organizes.menu.add': 'Add',
+  'page.organizes.menu.del': 'Delete',
+
+  'page.organizes.menu.th-s-menu-id': 'Menu ID',
+  'page.organizes.menu.th-s-menu-name': 'Menu Name',
+  'page.organizes.menu.th-s-menu-key': 'Menu Key',
+  'page.organizes.menu.th-s-menu-state': 'State',
+  'page.organizes.menu.th-s-menu-createTime': 'Create Time',
+  'page.organizes.menu.th-s-operate': 'Operate',
+  'page.organizes.menu.th-s-menu-name-holder': 'Please input Menu Name',
+  'page.organizes.menu.th-s-menu-key-holder': 'Please input Menu Key',
+  'page.organizes.menu.reset': 'Reset',
+  'page.organizes.menu.search': 'Search',
+
+  'page.organizes.menu.tb-menu-id': 'Menu ID',
+  'page.organizes.menu.tb-menu-name': 'Menu Name',
+  'page.organizes.menu.tb-menu-key': 'Menu Key',
+  'page.organizes.menu.tb-menu-state': 'Status',
+  'page.organizes.menu.tb-menu-createTime': 'Create Time',
+  'page.organizes.menu.tb-operate': 'Operate',
+  'page.organizes.menu.edit': 'Edit',
+  'page.organizes.menu.delete': 'Delete',
+
+  'page.organizes.menu.dialog-title': 'Menu Add',
+  'page.organizes.menu.dialog-update-title': 'Menu Edit',
+  'page.organizes.menu.dialog-label-id': 'Basic Info',
+  'page.organizes.menu.dialog-menu-name': 'Menu Name',
+  'page.organizes.menu.dialog-menu-key': 'Menu Key',
+  'page.organizes.menu.dialog-menu-state': 'Status',
+  'page.organizes.menu.dialog-menu-remark': 'Remark',
+  'page.organizes.menu.cancel': 'Cancel',
+  'page.organizes.menu.submit': 'Submit',
+  'page.organizes.menu.dialog-placeholder-prefix': 'Please input {holder}',
+
+  'page.organizes.menu.deleteBatchHint': 'Are you sure to delete?',
+}

@@ -1,0 +1,38 @@
+export default {
+  'page.organizes.menu.topNav': '菜單列表',
+  'page.organizes.menu.add': '新建',
+  'page.organizes.menu.del': '刪除',
+
+  'page.organizes.menu.th-s-menu-id': '菜單ID',
+  'page.organizes.menu.th-s-menu-name': '菜單名',
+  'page.organizes.menu.th-s-menu-key': '菜單字符',
+  'page.organizes.menu.th-s-menu-state': '狀態',
+  'page.organizes.menu.th-s-menu-createTime': '創建時間',
+  'page.organizes.menu.th-s-operate': '操作',
+  'page.organizes.menu.th-s-menu-name-holder': '請輸入菜單',
+  'page.organizes.menu.th-s-menu-key-holder': '請輸入菜單',
+  'page.organizes.menu.reset': '重置',
+  'page.organizes.menu.search': '查詢',
+
+  'page.organizes.menu.tb-menu-id': '菜單ID',
+  'page.organizes.menu.tb-menu-name': '菜單名稱',
+  'page.organizes.menu.tb-menu-key': '菜單字符',
+  'page.organizes.menu.tb-menu-state': '狀態',
+  'page.organizes.menu.tb-menu-createTime': '創建時間',
+  'page.organizes.menu.tb-operate': '操作',
+  'page.organizes.menu.edit': '編輯',
+  'page.organizes.menu.delete': '刪除',
+
+  'page.organizes.menu.dialog-title': '菜單新增',
+  'page.organizes.menu.dialog-update-title': '菜單修改',
+  'page.organizes.menu.dialog-label-id': '基本信息',
+  'page.organizes.menu.dialog-menu-name': '菜單名',
+  'page.organizes.menu.dialog-menu-key': '菜單字符',
+  'page.organizes.menu.dialog-menu-state': '狀態',
+  'page.organizes.menu.dialog-menu-remark': '備註',
+  'page.organizes.menu.cancel': '取消',
+  'page.organizes.menu.submit': '確認',
+  'page.organizes.menu.dialog-placeholder-prefix': '請輸入{holder}',
+
+  'page.organizes.menu.deleteBatchHint': '確認要刪除嗎?',
+}

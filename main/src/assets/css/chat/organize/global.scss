@@ -1,0 +1,86 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './dialog.scss';
+
+.color-huge {
+  color: var(--theme-color-huge);
+}
+.color-medium {
+  color: var(--theme-color-medium);
+}
+.color-percentage {
+  color: var(--theme-color-percentage);
+}
+
+.w20 {
+  width: 1.25rem;
+}
+.h20 {
+  height: 1.25rem;
+}
+
+.flex-right {
+  flex: 1;
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.main {
+  width: 100vw;
+  height: 100%;
+  &-top {
+    margin: 0 1rem;
+    display: flex;
+    height: 3.375rem;
+    align-items: center;
+    font-size: 0.875rem;
+
+    &-nav {
+      font-weight: 600;
+    }
+
+    &-batch {
+      display: flex;
+      flex-flow: row-reverse;
+      flex: 1;
+      gap: 0.625rem;
+    }
+  }
+
+  &-content-screen {
+    margin: 0 0.625rem;
+    font-size: 0.875rem;
+    ::v-deep(.el-col) {
+      display: flex;
+      align-items: center;
+    }
+    .th-s-label {
+      width: fit-content;
+      margin: 0 0.625rem;
+      white-space: nowrap;
+    }
+    .th-s-input {
+      width: auto;
+      flex: 1;
+      margin: 0 0.625rem;
+    }
+    .th-s {
+      display: flex;
+      width: 100%;
+      flex-flow: row-reverse;
+      gap: 0.625rem;
+    }
+    .actions {
+      display: flex;
+      ::v-deep(.el-button) {
+        padding: 0;
+      }
+    }
+    .operations {
+      display: flex;
+      ::v-deep(.el-button) {
+        padding: 0;
+      }
+    }
+  }
+}

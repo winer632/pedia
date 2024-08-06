@@ -1,0 +1,10 @@
+:global(.dropDownStyle .el-dropdown-menu__item) {
+}
+:global(.dropDownStyle .el-dropdown-menu__item:hover) {
+  background-color: rgba(20, 28, 235, 0.1);
+  color: var(--theme-color-huge);
+}
+:global(.dropDownStyle .el-dropdown-menu__item:not(.is-disabled):focus) {
+  background-color: rgba(20, 28, 235, 0.1);
+  color: var(--theme-color-huge);
+}
