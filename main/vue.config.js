@@ -29,6 +29,15 @@ module.exports = {
         pathRewrite: {
           '^/api-file': ''
         }
+      },
+      // 新增转发到 https://10.112.61.123 的配置
+      '/api/v1': { 
+        target: 'https://10.112.61.123', 
+        ws: true,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api/v1': '/api/v1' // 可选，如果目标服务器的路径与请求路径相同，则可以省略
+        }
       }
     },
     onBeforeSetupMiddleware: function (app, server) {
