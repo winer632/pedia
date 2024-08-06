@@ -14,31 +14,14 @@ module.exports = {
     port: VUE_APP_PORT || 8080,
     // 配置反向代理
     proxy: {
-      '/api': {
-        target: 'http://localhost:12345',
+      '/api': { // 将所有 /api 开头的请求转发到目标地址
+        target: 'https://10.112.61.123/api/v1', // 注意这里包含了 /api/v1
         ws: true,
         changeOrigin: true,
         pathRewrite: {
-          '^/api': ''
+          // '^/api': '' // 不需要重写路径，因为目标地址已经包含了 /api/v1
         }
       },
-      '/api-file': {
-        target: 'http://localhost:12345',
-        ws: true,
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api-file': ''
-        }
-      },
-      // 新增转发到 https://10.112.61.123 的配置
-      '/api/v1': { 
-        target: 'https://10.112.61.123', 
-        ws: true,
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api/v1': '/api/v1' // 可选，如果目标服务器的路径与请求路径相同，则可以省略
-        }
-      }
     },
     onBeforeSetupMiddleware: function (app, server) {
       server = app
